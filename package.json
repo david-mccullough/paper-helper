@@ -1,0 +1,30 @@
+{
+  "name": "paper-helper",
+  "version": "0.0.1",
+  "author": "David McCullough",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export"
+  },
+  "dependencies": {    
+    "@supabase/supabase-js": "^1.35.7",
+    "@supabase/ui": "^0.36.5",
+    "cypress": "^10.0.3",
+    "next": "^12.1.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^3.1.8",
+    "tailwindcss-radix": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.21",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "^17.0.1",
+    "autoprefixer": "^10.4.12",
+    "netlify-plugin-cypress": "2.2.0",
+    "postcss": "^8.4.16",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "typescript": "^4.8.3"
+  }
+}
